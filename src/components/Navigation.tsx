@@ -78,10 +78,10 @@ const Navigation: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link 
+            <Link 
                 to="/contact" 
                 className={`font-body text-sm transition-colors ${
-                  isActive('/') ? 'text-white' : 'text-white/60 hover:text-white'
+                  isActive('/about') ? 'text-white' : 'text-white/60 hover:text-white'
                 }`}
               >
                 Contact
@@ -151,14 +151,16 @@ const Navigation: React.FC = () => {
                   SKETCHBOOK
                 </Link>
               </li>
-              <Link 
+              <li>
+            <Link 
                 to="/contact" 
                 className={`font-body text-sm transition-colors ${
-                  isActive('/') ? 'text-white' : 'text-white/60 hover:text-white'
+                  isActive('/about') ? 'text-white' : 'text-white/60 hover:text-white'
                 }`}
               >
                 Contact
               </Link>
+            </li>
             </ul>
           </nav>
         </div>
