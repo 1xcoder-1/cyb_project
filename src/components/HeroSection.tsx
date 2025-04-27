@@ -13,16 +13,8 @@ const heroImages = [
     alt: "Person with book"
   },
   {
-    url: "/5 studio.png",
-    alt: "Hands reaching towards the moon"
-  },
-  {
     url: "/8 microphone.jpg",
     alt: "Hands holding shell"
-  },
-  {
-    url: "/7 mic.jpg",
-    alt: "Portrait of two people"
   },
   {
     url: "/1 audio.jpg",
@@ -32,18 +24,8 @@ const heroImages = [
     url: "/6 recording-studio.jpg",
     alt: "Abstract painting with figures in pink"
   },
-  {
-    url: "/lovable-uploads/b66d3c6d-37db-4fb7-8c67-34bc6ae295ba.png",
-    alt: "Tea plantation with workers harvesting"
-  },
-  {
-    url: "/lovable-uploads/ee3078d7-5b4f-4d6c-9d8e-7ebe0dc70280.png",
-    alt: "Woman embroidering fabric with red thread"
-  },
-  {
-    url: "/lovable-uploads/adc801b2-ec43-43f3-923d-51ffd89f78dc.png",
-    alt: "Woman with artistic makeup and green outfit"
-  }
+  
+  
 ];
 
 const HeroSection: React.FC = () => {
