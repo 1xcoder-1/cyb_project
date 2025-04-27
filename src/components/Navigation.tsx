@@ -152,15 +152,15 @@ const Navigation: React.FC = () => {
                 </Link>
               </li>
               <li>
-            <Link 
-                to="/contact" 
-                className={`font-body text-sm transition-colors ${
-                  isActive('/about') ? 'text-white' : 'text-white/60 hover:text-white'
-                }`}
-              >
-                CONTACT
-              </Link>
-            </li>
+              <Link 
+                  to="/contact" 
+                  className={`font-body text-2xl transition-colors ${
+                    isActive('/about') ? 'text-white' : 'text-white/60'
+                  }`}
+                >
+                  CONTACT
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
