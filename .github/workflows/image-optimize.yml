@@ -1,0 +1,21 @@
+name: Optimize Images
+
+on:
+  push:
+    paths:
+      - 'public/lovable-uploads/**'
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Compress images
+        uses: calibreapp/image-actions@v1.1.1
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          compressOnly: true
+          jpegQuality: '85'
+          pngQuality: '80-90'
