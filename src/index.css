@@ -50,6 +50,9 @@
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
   }
 }
+.element::-webkit-scrollbar {
+  display: none;
+}
 
 @layer components {
   .glass-card {
