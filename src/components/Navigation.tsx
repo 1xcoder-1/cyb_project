@@ -40,7 +40,7 @@ const Navigation: React.FC = () => {
       <div className="container-custom flex justify-between items-center">
         <div>
           <Link to="/" className="font-display text-xl tracking-wider">
-            RENATA CHEBEL
+            CYB MUSIC
           </Link>
         </div>
         
