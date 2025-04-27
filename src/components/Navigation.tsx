@@ -57,23 +57,23 @@ const Navigation: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link 
-                to="/sketchbook" 
-                className={`font-body text-sm transition-colors ${
-                  isActive('/sketchbook') || isActive('/photodiary') ? 'text-white' : 'text-white/60 hover:text-white'
-                }`}
-              >
-                SKETCHBOOK
-              </Link>
-            </li>
-            <li>
-              <Link 
+            <Link 
                 to="/about" 
                 className={`font-body text-sm transition-colors ${
                   isActive('/about') ? 'text-white' : 'text-white/60 hover:text-white'
                 }`}
               >
                 ABOUT
+              </Link>
+            </li>
+            <li>
+            <Link 
+                to="/sketchbook" 
+                className={`font-body text-sm transition-colors ${
+                  isActive('/sketchbook') || isActive('/photodiary') ? 'text-white' : 'text-white/60 hover:text-white'
+                }`}
+              >
+                SKETCHBOOK
               </Link>
             </li>
           </ul>
