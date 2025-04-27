@@ -41,7 +41,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="container-custom">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="font-display text-sm tracking-wider">CHEBEL</p>
+              <p className="font-display text-sm tracking-wider">CYB MUSIC</p>
             </div>
             <div className="text-sm text-white/60">
               © {new Date().getFullYear()} All rights reserved

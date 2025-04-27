@@ -146,7 +146,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg mb-1">Email</h3>
-                    <p className="font-body text-white/70">chebel@gmail.com</p>
+                    <p className="font-body text-white/70">hassanasifmusix@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -158,7 +158,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg mb-1">Phone</h3>
-                    <p className="font-body text-white/70">+55(11)98556-4289</p>
+                    <p className="font-body text-white/70">+92-3106888219</p>
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@ const Contact: React.FC = () => {
               <div className="mt-8">
                 <h3 className="font-display text-lg mb-4">Connect</h3>
                 <div className="flex space-x-4">
-                  {['instagram', 'twitter', 'vimeo', 'linkedin'].map(platform => (
+                  {['instagram', 'threads', 'spotify', 'youtube'].map(platform => (
                     <a
                       key={platform}
                       href={`https://www.${platform}.com`}
