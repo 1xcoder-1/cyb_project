@@ -146,7 +146,7 @@ const HeroSection: React.FC = () => {
                 className="parallax glass-card py-4 px-8 text-sm font-body tracking-wider transition-all duration-500 hover:scale-105 hover:bg-white/10"
                 data-speed="0.8"
               >
-                EXPLORE PROJECTS
+                Bestselling Songs
               </Link>
               <Link 
                 to="/about" 
