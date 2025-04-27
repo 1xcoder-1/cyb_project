@@ -136,7 +136,7 @@ const HeroSection: React.FC = () => {
             
             <div className="overflow-hidden mb-8 mt-4">
               <p className="font-body text-lg md:text-xl text-white/80 max-w-2xl animate-slide-up parallax" data-speed="0.3">
-              "Bringing melodies to life, one note at a time. 🎶 Dive into a world of rhythm, emotion, and pure musical magic. Let’s make every moment unforgettable with music."
+              Bringing melodies to life, one note at a time. 🎶 Dive into a world of rhythm, emotion, and pure musical magic. Let’s make every moment unforgettable with music.
               </p>
             </div>
             
