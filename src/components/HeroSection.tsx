@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const heroImages = [
 
   {
-    url: "/lovable-uploads/48318c35-23f6-4133-8c4a-69ba3191de23.png",
+    url: "./public/3 equalizer.jpg",
     alt: "Woman with lotus flowers in water"
   },
   {
