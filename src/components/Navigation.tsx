@@ -57,6 +57,16 @@ const Navigation: React.FC = () => {
               </Link>
             </li>
             <li>
+              <Link 
+                to="/con" 
+                className={`font-body text-sm transition-colors ${
+                  isActive('/') ? 'text-white' : 'text-white/60 hover:text-white'
+                }`}
+              >
+                Contact
+              </Link>
+            </li>
+            <li>
             <Link 
                 to="/about" 
                 className={`font-body text-sm transition-colors ${
