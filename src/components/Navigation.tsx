@@ -84,7 +84,7 @@ const Navigation: React.FC = () => {
                   isActive('/about') ? 'text-white' : 'text-white/60 hover:text-white'
                 }`}
               >
-                Contact
+                CONTACT
               </Link>
             </li>
           </ul>
@@ -158,7 +158,7 @@ const Navigation: React.FC = () => {
                   isActive('/about') ? 'text-white' : 'text-white/60 hover:text-white'
                 }`}
               >
-                Contact
+                CONTACT
               </Link>
             </li>
             </ul>
