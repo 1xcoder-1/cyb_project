@@ -24,7 +24,23 @@ const heroImages = [
     url: "/6 recording-studio.jpg",
     alt: "Abstract painting with figures in pink"
   },
-  
+
+  {
+    url: "/11.avif",
+    alt: "Abstract painting with figures in pink"
+  },  
+  {
+    url: "/12.jpg",
+    alt: "Abstract painting with figures in pink"
+  }, 
+   {
+    url: "/13.avif",
+    alt: "Abstract painting with figures in pink"
+  },
+  {
+    url: "/14.avif",
+    alt: "Abstract painting with figures in pink"
+  },
   
 ];
 
