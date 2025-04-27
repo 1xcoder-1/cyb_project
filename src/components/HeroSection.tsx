@@ -5,31 +5,31 @@ import { Link } from 'react-router-dom';
 const heroImages = [
 
   {
-    url: "/3 equalizer.jpg",
+    url: "/2 concert.jpg",
     alt: "Woman with lotus flowers in water"
   },
   {
-    url: "/lovable-uploads/f80972c5-c4a4-496b-8171-e2730dd1b15b.png",
+    url: "/4 live-music.jpg",
     alt: "Person with book"
   },
   {
-    url: "/lovable-uploads/0fac703d-544a-4c73-89b3-c17395277326.png",
+    url: "/5 studio.png",
     alt: "Hands reaching towards the moon"
   },
   {
-    url: "/lovable-uploads/9f887525-f0f5-4f1e-aaa2-cc0136937f34.png",
+    url: "/8 microphone.jpg",
     alt: "Hands holding shell"
   },
   {
-    url: "/lovable-uploads/db4eb682-0549-4794-9705-38f15b4324ec.png",
+    url: "/7 mic.jpg",
     alt: "Portrait of two people"
   },
   {
-    url: "/lovable-uploads/daa43558-4d77-43f4-9f6b-cfde79a2838b.png",
+    url: "/1 audio.jpg",
     alt: "Person with metallic material"
   },
   {
-    url: "/lovable-uploads/cf1a415c-91e0-48ce-974f-3d7ea4927c04.png",
+    url: "/6 recording-studio.jpg",
     alt: "Abstract painting with figures in pink"
   },
   {
