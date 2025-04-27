@@ -102,7 +102,7 @@ const Navigation: React.FC = () => {
           <div className="fixed top-0 left-0 w-full container-custom py-6 flex justify-between items-center">
             <div>
               <Link to="/" className="font-display text-xl tracking-wider">
-                RENATA CHEBEL
+              CYB MUSIC
               </Link>
             </div>
           </div>
@@ -120,6 +120,17 @@ const Navigation: React.FC = () => {
                 </Link>
               </li>
               <li>
+              <Link 
+                  to="/about" 
+                  className={`font-body text-2xl transition-colors ${
+                    isActive('/about') ? 'text-white' : 'text-white/60'
+                  }`}
+                >
+                  ABOUT
+                </Link>
+              </li>
+              <li>
+                
                 <Link 
                   to="/sketchbook" 
                   className={`font-body text-2xl transition-colors ${
@@ -127,16 +138,6 @@ const Navigation: React.FC = () => {
                   }`}
                 >
                   SKETCHBOOK
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/about" 
-                  className={`font-body text-2xl transition-colors ${
-                    isActive('/about') ? 'text-white' : 'text-white/60'
-                  }`}
-                >
-                  ABOUT
                 </Link>
               </li>
             </ul>
